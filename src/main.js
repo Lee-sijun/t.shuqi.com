@@ -5,12 +5,9 @@ import store from './store'
 
 import './assets/js/flexble'
 
-<<<<<<< HEAD
-=======
 import axios from 'axios'
 Vue.prototype.$axios = axios
 
->>>>>>> ljz
 Vue.config.productionTip = false
 
 new Vue({

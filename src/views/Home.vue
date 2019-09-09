@@ -1,8 +1,6 @@
 <template>
   <div class="home">
-<<<<<<< HEAD
-  </div>
-=======
+
 <!--header 开始-->
     <div class="header mian">
 
@@ -132,16 +130,10 @@
 <!--content 结束-->
 
   <!-- home 结束-->
->>>>>>> ljz
 </template>
 
 <script>
 // @ is an alias to /src
-<<<<<<< HEAD
-export default {
-  name: 'home'
-=======
-
 export default {
   name: 'home',
   components: {
@@ -160,7 +152,6 @@ export default {
   created () {
     this.getdata()
   }
->>>>>>> ljz
 }
 </script>
 
