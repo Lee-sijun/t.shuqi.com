@@ -1,11 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import router from './routers/router'
 import store from './store'
 
 import './assets/js/flexble'
-
-
 
 Vue.config.productionTip = false
 
