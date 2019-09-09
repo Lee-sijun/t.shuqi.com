@@ -5,7 +5,8 @@ import store from './store'
 
 import './assets/js/flexble'
 
-
+import axios from 'axios'
+Vue.prototype.$axios = axios
 
 Vue.config.productionTip = false
 
