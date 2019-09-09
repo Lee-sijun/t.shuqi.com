@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <a href="#" class="return"></a>
-    <div class="header-title">书旗</div>
+    <div class="header-title">登录</div>
     <a href="#" class="skipHome"></a>
   </div>
 </template>
