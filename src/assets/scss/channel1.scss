@@ -1,0 +1,114 @@
+ .box{
+     margin-top:28px;
+     background-color: white;
+     .common-tit{
+         font-size: 14px;
+         color: #333;
+         position: relative;
+         padding:20px;
+        
+            &::after{
+                content: '';
+                width: .06rem;
+                height: 16px;
+                display: inline-block;
+                background: #00c98d;
+                position: absolute;
+                top: 23px;
+                left: 0;
+               
+            }
+     }
+
+     .main-content{
+        .book{
+            display: flex;
+            justify-content: space-around;
+            width: 95%;
+            margin:0 auto;
+        }
+        .book>li{
+            width: 22%;
+            height: 180px;
+            margin-right:10px; 
+        }
+        .book>li:last-child{
+            margin-right:0; 
+        }
+        .poster{
+            width: 100%;
+        }
+        .book-title{
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            color: #333;
+            font-size: 14px;
+            margin: 8px 0 2px;
+        }
+        .author{
+            font-size: 12px;
+            color: #999;
+        }
+        
+        .book-list{
+        padding: 0 16px;
+ 
+        &>ul>li{
+            padding: 16px 0;
+            border-top: 1px solid #f3f3f3;
+        }
+        &>ul>li:last-child{
+            padding-bottom:16px;
+            border-top: 1px solid #f3f3f3;
+        }
+        .title-text{
+            float: left;
+            font-size: 15px;
+
+        }
+        .tags{
+            float: right;
+            .isFinished{
+                color: #00c98d;
+                border:1px solid rgba(0,201,141,.3);
+                border-radius: 2px;
+                padding: 0 6px;
+                margin-right: 4px;
+            }
+
+            .describe{
+                border: 1px solid rgba(153,153,153,.3);
+                color: #999;
+                font-size: 12px;
+                border-radius: 2px;
+                padding: 0 6px;
+            }
+        }
+        .books-desc{
+            
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+     }
+
+    .bottoms{
+        width:100%;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        .modulear-text{
+            font-size: 14px;
+            color: #333;
+            margin-right: 10px;
+        }
+        
+    }
+
+    }
+     
+ }
