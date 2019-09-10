@@ -123,7 +123,18 @@
 <script>
 import BScroll from 'better-scroll'
 export default {
+  data () {
+    return {
+      channelData: []
+    }
+  },
   mounted () {
+    // var rs = [];
+    // if( type == 1){
+    //   rs = 'data1';
+    // }else if( type == 2 ){
+    //   rs = 'data2';
+    // }
     this.$nextTick(() => { // DOM已经重绘了
       this.scroll = new BScroll('#category', {
         scrollX: true, // 横向滚动

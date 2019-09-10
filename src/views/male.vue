@@ -1,5 +1,5 @@
 <template>
-    <Header :titless="titless"></Header>
+    <Header titless='男生专区'></Header>
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
   name: 'Male',
   data () {
     return {
-      titless: '男生频道'
+
     }
   }
 

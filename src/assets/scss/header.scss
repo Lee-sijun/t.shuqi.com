@@ -10,6 +10,8 @@ body{
     display: flex;
     justify-content: space-around;
     z-index: 999;
+    top:0;
+    left:0;  
     .arr{
         flex: 1;
         &>img{

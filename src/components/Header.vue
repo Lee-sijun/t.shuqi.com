@@ -9,8 +9,6 @@
                  <img src="../assets/home.png" alt="Home"/>
              </div>
         </div>
-        <h1>aa{{titles}}</h1>
-
     </div>
 </template>
 
