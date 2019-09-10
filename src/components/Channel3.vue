@@ -2,7 +2,7 @@
     <div class="box">
         <div class="common-tit">
             <span class="green"></span>
-            女生美文榜
+             {{toChannelThree.m_s_name}}
         </div>
 
         <ul class="main-content">
