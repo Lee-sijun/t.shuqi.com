@@ -173,7 +173,7 @@
               <p class="newbook-autor">{{xszq.content[0].author_name}}</p>
               <p class="newbook-content">  {{xszq.content[0].book_info}}</p>
               <span :class="{lz:xszq.content[0].stat_name=='连载',wj:xszq.content[0].stat_name=='完结'}">{{xszq.content[0].stat_name}}</span>
-              <span >{{xszq.content[0].size}}万字</span>
+              <span >{{parseInt(xszq.content[0].size/10000)}}万字</span>
               <template class="book-tag" v-for="tag in xszq.content[0].tag">
                 <span>{{ tag }}</span>
               </template>
@@ -224,7 +224,7 @@
               <p class="newbook-autor">{{cxb.content[0].author_name}}</p>
               <p class="newbook-content">  {{cxb.content[0].book_info}}</p>
               <span :class="{lz:cxb.content[0].stat_name=='连载',wj:cxb.content[0].stat_name=='完结'}">{{cxb.content[0].stat_name}}</span>
-              <span >{{cxb.content[0].size}}万字</span>
+              <span >{{parseInt(cxb.content[0].size/10000)}}万字</span>
               <template class="book-tag" v-for="tag in cxb.content[0].tag">
                 <span>{{ tag }}</span>
               </template>
@@ -277,7 +277,7 @@
             <p class="newbook-content">{{ item.book_info }}</p>
             <div class="book-tag">
               <span :class="{lz:item.stat_name=='连载',wj:item.stat_name=='完结'}">{{item.stat_name}}</span>
-              <span>{{ item.size }}万字</span>
+              <span>{{ parseInt(item.size/10000) }}万字</span>
               <template class="book-tag" v-for="(tag,i) in item.tag" v-if="i<2">
                 <span>{{ tag }}</span>
               </template>
