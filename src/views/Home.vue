@@ -8,7 +8,9 @@
         <h1>书旗小说</h1>
       </div>
       <div class="h-right">
-        <img src="data:image/png;base64,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" alt="">
+        <router-link to="/login">
+          <img src="data:image/png;base64,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" alt="" >
+        </router-link>
         <img src="http://c-shuqi.11222.cn/assets/bookshelf_606cf21.png">
 
         <img src="http://c-shuqi.11222.cn/assets/search_d5e5264.png" alt="">
@@ -105,7 +107,6 @@
             </div>
           </div>
 
-
         </div>
         <!--           book article list -->
         <div class="ctfooter">
@@ -146,7 +147,6 @@
             </div>
           </div>
 
-
         </div>
         <!--           book article list -->
         <div class="ctfooter">
@@ -173,7 +173,7 @@
               <p class="newbook-autor">{{xszq.content[0].author_name}}</p>
               <p class="newbook-content">  {{xszq.content[0].book_info}}</p>
               <span :class="{lz:xszq.content[0].stat_name=='连载',wj:xszq.content[0].stat_name=='完结'}">{{xszq.content[0].stat_name}}</span>
-              <span >{{xszq.content[0].size}}万字</span>
+              <span >{{parseInt(xszq.content[0].size/10000)}}万字</span>
               <template class="book-tag" v-for="tag in xszq.content[0].tag">
                 <span>{{ tag }}</span>
               </template>
@@ -224,7 +224,7 @@
               <p class="newbook-autor">{{cxb.content[0].author_name}}</p>
               <p class="newbook-content">  {{cxb.content[0].book_info}}</p>
               <span :class="{lz:cxb.content[0].stat_name=='连载',wj:cxb.content[0].stat_name=='完结'}">{{cxb.content[0].stat_name}}</span>
-              <span >{{cxb.content[0].size}}万字</span>
+              <span >{{parseInt(cxb.content[0].size/10000)}}万字</span>
               <template class="book-tag" v-for="tag in cxb.content[0].tag">
                 <span>{{ tag }}</span>
               </template>
@@ -277,7 +277,7 @@
             <p class="newbook-content">{{ item.book_info }}</p>
             <div class="book-tag">
               <span :class="{lz:item.stat_name=='连载',wj:item.stat_name=='完结'}">{{item.stat_name}}</span>
-              <span>{{ item.size }}万字</span>
+              <span>{{ parseInt(item.size/10000) }}万字</span>
               <template class="book-tag" v-for="(tag,i) in item.tag" v-if="i<2">
                 <span>{{ tag }}</span>
               </template>
@@ -292,7 +292,6 @@
         </div>
       </div>
       <!--精选书单 结束-->
-
 
       </div>
 <!--      content 结束-->
@@ -309,30 +308,29 @@ export default {
   name: 'home',
   data () {
     return {
-      jp: [],//精品推荐书籍
-      nsmw: {},//女生美文书籍
-      manmw:{},//男生美文书籍
-      cxb : {},//畅销排行榜
-      xszq : {}, //新书
-      wntj : {}, //为你推荐
+      jp: [], // 精品推荐书籍
+      nsmw: {}, // 女生美文书籍
+      manmw: {}, // 男生美文书籍
+      cxb: {}, // 畅销排行榜
+      xszq: {}, // 新书
+      wntj: {} // 为你推荐
     }
   },
   components: {
   },
   methods: {
-    getnans(){
-      var nansurl = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568108495&type=2&resetcache=&func_id=11%2C33%2C11%2C19%2C33%2C11%2C33%2C11%2C19%2C33&orderid=8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17&sign=C683D6EE4543DC5FFB1329E9A15EDE4C&key=shuqiapi&_=${new Date()}`;
+    getnans () {
+      var nansurl = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568108495&type=2&resetcache=&func_id=11%2C33%2C11%2C19%2C33%2C11%2C33%2C11%2C19%2C33&orderid=8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17&sign=C683D6EE4543DC5FFB1329E9A15EDE4C&key=shuqiapi&_=${new Date()}`
       this.$axios({
-        url:nansurl,
+        url: nansurl,
         method: 'get'
       }).then((res) => {
         // this.jp = res.data.data.module[3].content
         this.manmw = res.data.data.module[8]
       })
-    }
-    ,
-    getjp(){
-      var url = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568017715&type=2&resetcache=&func_id=24%2C20%2C11%2C19%2C33&orderid=1%2C3%2C4%2C6%2C7&sign=9EB7D721971C5739E749AB9EC7B0522F&key=shuqiapi&_=${new Date()}`;
+    },
+    getjp () {
+      var url = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568017715&type=2&resetcache=&func_id=24%2C20%2C11%2C19%2C33&orderid=1%2C3%2C4%2C6%2C7&sign=9EB7D721971C5739E749AB9EC7B0522F&key=shuqiapi&_=${new Date()}`
       this.$axios({
         url,
         method: 'get'
@@ -343,8 +341,8 @@ export default {
         // console.log( res );
       })
     },
-    getns(){
-      var womanurl = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568028052&type=2&resetcache=&func_id=19&orderid=11&mid=12&lmkTxt=index&sign=662AC908478FEC4042F5DFA69F000918&key=shuqiapi&_=${new Date()}`;
+    getns () {
+      var womanurl = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568028052&type=2&resetcache=&func_id=19&orderid=11&mid=12&lmkTxt=index&sign=662AC908478FEC4042F5DFA69F000918&key=shuqiapi&_=${new Date()}`
       this.$axios({
         url: womanurl,
         method: 'get'
@@ -357,35 +355,34 @@ export default {
     },
 
     getdata () {
-       var manurl = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568078169&type=2&resetcache=&func_id=11%2C33%2C11%2C19%2C33%2C12%2C33%2C11%2C19%2C33&orderid=18%2C19%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30&sign=187C8D766B6E20E86CEAF60D22966E8A&key=shuqiapi&_=${new Date()}`;
+      var manurl = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568078169&type=2&resetcache=&func_id=11%2C33%2C11%2C19%2C33%2C12%2C33%2C11%2C19%2C33&orderid=18%2C19%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30&sign=187C8D766B6E20E86CEAF60D22966E8A&key=shuqiapi&_=${new Date()}`
       this.$axios({
         url: manurl,
         method: 'get'
       }).then((res) => {
         // console.log(res)
-        //畅销榜数据
-        this.cxb = res.data.data.module[8];
-        this.xszq = res.data.data.module[3];
-      });
+        // 畅销榜数据
+        this.cxb = res.data.data.module[8]
+        this.xszq = res.data.data.module[3]
+      })
 
-       var tjurl = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568103193&type=2&resetcache=&func_id=12%2C33%2C11%2C28%2C33%2C12%2C33%2C11%2C19&orderid=31%2C32%2C33%2C34%2C35%2C36%2C37%2C38%2C39&sign=D1D1DB1640AB50B8D4F1D1F90CA1CC1A&key=shuqiapi&_=1568103193844`;
+      var tjurl = `http://bookstoreapi.shuqireader.com/eva_bookstore/v1/module/query?appId=1&pageId=1&channelId=&versionId=&ver=&shuqi_h5=&md5key=&userId=8000000&timestamp=1568103193&type=2&resetcache=&func_id=12%2C33%2C11%2C28%2C33%2C12%2C33%2C11%2C19&orderid=31%2C32%2C33%2C34%2C35%2C36%2C37%2C38%2C39&sign=D1D1DB1640AB50B8D4F1D1F90CA1CC1A&key=shuqiapi&_=1568103193844`
       this.$axios({
         url: tjurl,
         method: 'get'
       }).then((res2) => {
-          // console.log( res2 );
-          this.wntj = res2.data.data.module[8];
-      }).catch((err)=>{
-        console.log( "why not data?" );
+        // console.log( res2 );
+        this.wntj = res2.data.data.module[8]
+      }).catch((err) => {
+        console.log('why not data?')
       })
-
     }
   },
   created () {
-    this.getdata();
-    this.getjp();
-    this.getns();
-    this.getnans();
+    this.getdata()
+    this.getjp()
+    this.getns()
+    this.getnans()
   }
 }
 </script>
@@ -508,7 +505,7 @@ export default {
         position: absolute;
         bottom: 0;
         left: 20px;
-        font-size: 0.28rem;
+        font-size: 4‬px;
         vertical-align: middle;
         text-align: left;
 
@@ -520,22 +517,24 @@ export default {
         display: inline-block;
         background: #00c98d;
         position: absolute;
-        top: .02rem;
+        top: 0px;
         left: -20px;
       }
     }
     .grop-book-4{
       display: flex;
+      justify-content: space-between;
       height: 172px;
       padding: 10px 0px 10px 20px;
       box-sizing: border-box;
       overflow: hidden;
       /*border-bottom: 1px solid red;*/
       li{
+        flex: 1;
+
         img{
           width: 73px;
           height: 98px;
-          margin-right: 15px;
         }
         p{
           height: 16px;
@@ -548,11 +547,11 @@ export default {
         }
         .attext{
           color: #333;
-          margin: .16rem 0 .04rem;
+          margin: 2.56px 0.6px;
         }
         .atactor{
           color: #999;
-          margin: .16rem 0 .04rem;
+          margin: 2.56px 0.6px;
         }
       }
     }
@@ -576,8 +575,9 @@ export default {
       display: flex;
       flex-direction: column;
       .book-at-title, .book-at-article{
+        width: 100%;
         color: #333;
-        line-height: .4rem;
+        line-height: 6.4px;
         flex: 1;
         overflow: hidden;
         white-space: nowrap;
@@ -585,7 +585,7 @@ export default {
         word-break: break-all;
       }
       .book-at-title{
-        font-size: .3rem;
+        font-size: 4.8px;
         color: #333333;
       }
       .book-at-article{
@@ -607,7 +607,7 @@ export default {
     }
     .book-at-article{
       white-space: nowrap;
-      width: 335/16 rem;
+      width: 20px;
       overflow: hidden;
       text-overflow: ellipsis;
     }
@@ -635,7 +635,6 @@ export default {
       }
     }
     .newbook-info{
-
 
       overflow: hidden;
       .newbook-title{
@@ -687,13 +686,13 @@ export default {
     .articlelist {
       span{
         display: inline-block;
-        font-size: .2rem;
-        height: .34rem;
-        line-height: .36rem;
+        font-size:3.2px;
+        height: 5.44px;
+        line-height: 5.76px;
         color: #999999;
         border: 1px solid rgba(153,153,153,.3);
-        border-radius: .04rem;
-        padding: 0 .12rem;
+        border-radius: 3px;
+        padding: 3px 3px;
         margin-left: 2px;
       }
       //连载样式
@@ -704,14 +703,14 @@ export default {
         border-width: 1px;
         border-style: solid;
         border-color: rgba(73,159,255,.3);
-        padding: 0 .12rem;
+        padding: 2px;
       }
       //完结样式
       .wj{
         display: inline-block;
         border-width: 1px;
         border-style: solid;
-        padding: 0 .12rem;
+        padding: 2px;
         color: #00c98d;
         border-color: rgba(0,201,141,.3);
       }
