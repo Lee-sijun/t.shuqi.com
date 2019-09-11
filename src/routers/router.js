@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '../views/Home.vue'
+import Paihang from '../views/Paihang.vue'
+
+import Details from '../views/Details.vue'
+import Xiazai from '../views/Xiazai.vue'
 
 Vue.use(Router)
 
@@ -9,9 +12,19 @@ export default new Router({
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: Home
+      path: '/paihang',
+      name: 'paihang',
+      component: Paihang
+    },
+    {
+      path: '/details',
+      name: 'details',
+      component: Details
+    },
+    {
+      path: '/xiazai',
+      name: 'xiazai',
+      component: Xiazai
     }
   ]
 })
