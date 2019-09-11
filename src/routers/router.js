@@ -8,7 +8,6 @@ import shudan from './views/shudan.vue'
 import eat from './views/eat.vue'
 import Detail from './views/Details.vue'
 
-
 import Header from '../components/Header.vue'
 
 Vue.use(Router)
@@ -33,9 +32,9 @@ export default new Router({
       component: Login
     },
     {
-      path:'/register',
+      path: '/register',
       name: 'register',
-      component:Register
+      component: Register
     },
     {
       path: '/shudan',
