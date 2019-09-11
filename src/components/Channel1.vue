@@ -28,10 +28,10 @@
                 </ul>
             </div>
 
-            <div class="bottoms">
-            <span class="modulear-text" @click="change">换一换</span>
+            <!-- <div class="bottoms">
+            <span class="modulear-text">换一换</span>
             <mt-spinner type="fading-circle" :size="20" style="display:inline-block"></mt-spinner>
-            </div>
+            </div> -->
 
         </div>
     </div>
