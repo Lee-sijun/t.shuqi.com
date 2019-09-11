@@ -1,0 +1,103 @@
+.box{
+    .common-tit{
+        font-size: 14px;
+        color: #333;
+        position: relative;
+        padding:20px;
+       
+           &::after{
+               content: '';
+               width: .06rem;
+               height: 16px;
+               display: inline-block;
+               background: #00c98d;
+               position: absolute;
+               top: 23px;
+               left: 0;
+              
+           }
+    }
+
+    .main-content{
+        &>li{
+            display: flex;
+            padding-left: 10px;
+            border-bottom: 1px solid #f3f3f3;
+        }
+    }
+    .img-left>img{
+        widows: 84px;
+        height: 112px;
+        flex: 3;
+        
+        box-sizing: border-box;
+    }
+    .des-right{
+       flex: 5;
+       box-sizing: border-box;
+       padding: 0 16px;
+
+       &>h3{
+           font-size: 16px;
+           color: #333;
+       }
+       .text{
+        font-size: 12px;
+        line-height: .32rem;
+        color: #999;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        margin-top: .16rem;
+        max-height: 100%;
+       }
+      
+       .tags{
+           margin-top: 10px;
+       }
+         
+    }
+    .describe{
+        height: 19px;
+        color: #999;
+        border: 1px solid rgba(153,153,153,.3);
+        border-radius: 3px;
+        padding: 0 6px;
+        margin-right:5px ;
+        
+       }
+       .wj{
+        color: #00c98d;
+        border-color: rgba(0,201,141,.3);
+       }
+      .lz{
+        color: #499fff;
+        border-color: rgba(73,159,255,.3);
+      }
+
+      .book-item{
+          padding: 15px 0;
+         .ranking{
+            font-size: 20px;
+            color: #ccc;
+            font-weight: 700;
+         } 
+         &>h4{
+             font-size: 14px;
+             color: #333;
+             width: 60%;
+             padding-left:20px; 
+             margin-top: 5px;
+         }
+      }
+
+      .more{
+          text-align: center;
+          height: 48px;
+          line-height: 48px;
+          color: #333;
+          font-size: 14px;
+      }
+}

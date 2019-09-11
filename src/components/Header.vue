@@ -1,42 +1,6 @@
 <template>
-<<<<<<< HEAD
-  <div class="header">
-    <a href="#" class="return"></a>
-    <div class="header-title">登录</div>
-    <a href="#" class="skipHome"></a>
-  </div>
-</template>
-<script>
-export default {
-  name: 'Header'
-}
-</script>
-<style scoped lang="scss">
-  .header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    .header-title{
-      color: #333;
-      font-size: 18px;
-    }
-    .return{
-      display: block;
-      width: 25px;
-      height: 25px;
-      background: url("http://c-shuqi.11222.cn/assets/backIcon_ba492d1.png") no-repeat;
-      background-size: cover;
-    }
-    .skipHome{
-      display: block;
-      width: 25px;
-      height: 25px;
-      background: url("http://c-shuqi.11222.cn/assets/home_48a04f5.png") no-repeat;
-      background-size: cover;
-    }
-  }
-=======
+
+
     <div>
         <div class="box">
 
@@ -56,6 +20,19 @@ export default {
 
         </div>
 
+    <div>
+        <div class="Tops">
+             <div class="arr">
+               <a href="javascript:history.back(-1)">
+                 <img src="../assets/backIcon.png" alt="back"/>
+               </a>
+             </div>
+             <div class="ljj-c">{{titles}} {{titless}}</div>
+             <div class="arr" @click="goBack">
+                 <img src="../assets/home.png" alt="Home"/>
+             </div>
+        </div>
+
     </div>
 </template>
 
@@ -63,11 +40,17 @@ export default {
 
 export default {
   name: 'Header',
-  props: ['titless']
+  props: ['titless'],
+   props: ['titles', 'titless'],
+  methods: {
+    goBack () {
+      this.$router.push({ path: '/' })
+    }
+  }
 }
+
 </script>
 
-<style  lang="scss" scoped>
-
->>>>>>> d486cdf6edd5cdb9af279532b18da8c2e3ed7739
+<style scoped lang="scss">
+   @import "../assets/css/header.css"
 </style>

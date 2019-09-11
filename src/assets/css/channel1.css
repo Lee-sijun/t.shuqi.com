@@ -1,0 +1,82 @@
+.pox {
+  margin-top: 43px;
+  background-color: white; }
+  .pox .common-tit {
+    font-size: 14px;
+    color: #333;
+    position: relative;
+    padding: 20px; }
+    .pox .common-tit::after {
+      content: '';
+      width: .06rem;
+      height: 16px;
+      display: inline-block;
+      background: #00c98d;
+      position: absolute;
+      top: 23px;
+      left: 0; }
+  .pox .main-content .book {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: 0 auto; }
+  .pox .main-content .book > li {
+    width: 22%;
+    height: 180px;
+    margin-right: 10px; }
+  .pox .main-content .book > li:last-child {
+    margin-right: 0; }
+  .pox .main-content .poster {
+    width: 100%; }
+  .pox .main-content .book-title {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #333;
+    font-size: 14px;
+    margin: 8px 0 2px; }
+  .pox .main-content .author {
+    font-size: 12px;
+    color: #999; }
+  .pox .main-content .book-list {
+    padding: 0 16px; }
+    .pox .main-content .book-list > ul > li {
+      padding: 16px 0;
+      border-top: 1px solid #f3f3f3; }
+    .pox .main-content .book-list > ul > li:last-child {
+      padding-bottom: 16px;
+      border-top: 1px solid #f3f3f3; }
+    .pox .main-content .book-list .title-text {
+      float: left;
+      font-size: 15px; }
+    .pox .main-content .book-list .tags {
+      float: right; }
+      .pox .main-content .book-list .tags .isFinished {
+        color: #00c98d;
+        border: 1px solid rgba(0, 201, 141, 0.3);
+        border-radius: 2px;
+        padding: 0 6px;
+        margin-right: 4px; }
+      .pox .main-content .book-list .tags .describe {
+        border: 1px solid rgba(153, 153, 153, 0.3);
+        color: #999;
+        font-size: 12px;
+        border-radius: 2px;
+        padding: 0 6px; }
+    .pox .main-content .book-list .books-desc {
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+  .pox .main-content .bottoms {
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center; }
+    .pox .main-content .bottoms .modulear-text {
+      font-size: 14px;
+      color: #333;
+      margin-right: 10px; }
+
+/*# sourceMappingURL=channel1.css.map */
