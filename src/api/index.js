@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-alert('ljz');
-=======
+
 // 调用接口获取数据axios
 import Axios from 'axios'
 
@@ -61,4 +59,4 @@ export const getOtherDetail = () => {
 
 //     })
 // }
->>>>>>> 370a2f886e10e3f3a849fb90691b352ae042be19
+

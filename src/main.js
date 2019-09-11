@@ -4,12 +4,7 @@ import router from './routers/router'
 import store from './store'
 
 import './assets/js/flexble'
-
-import axios from 'axios'
-
 import { Sticky } from 'vant'
-Vue.prototype.$axios = axios
-
 Vue.use(Sticky)
 Vue.config.productionTip = false
 
