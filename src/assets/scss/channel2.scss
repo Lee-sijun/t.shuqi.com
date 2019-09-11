@@ -16,7 +16,7 @@
                position: absolute;
                top: 23px;
                left: 0;
-              
+               
            }
     }
  #category{
@@ -25,7 +25,7 @@
  }
    .category-content{
        display: flex;
-       width: 1900px;
+       width: 1700px;
     #chapter{
         &>h1{
             text-align: center;
@@ -45,23 +45,22 @@
         }
         .book{
             display: flex;
-            justify-content: space-around;
-            width: 95%;
-            margin:0 auto;
+            margin-right:10px; 
         }
         .book>li{
-            width: 22%;
-            height: 180px;
+            // width: 25%;
+            height: 200px;
             margin-right:10px; 
         }
         .book>li:last-child{
             margin-right:0; 
         }
         .poster{
-            width: 100%;
+            width: 95px;
+            height: 127px;
         }
         .book-title{
-            width: 100%;
+            width: 95px;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;

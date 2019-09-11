@@ -2,7 +2,7 @@
 <div>
     <Header titles='男生专区'></Header>
     <ChannelOne :toChannelOne="recommend"></ChannelOne>
-    <ChannelTwo></ChannelTwo>
+    <ChannelTwo :toChannelTwo="hotList"></ChannelTwo>
     <ChannelOne :toChannelOne="newBook" style="margin-top:10px"></ChannelOne>
     <!-- <ChannelTwo :type='2'></ChannelTwo> -->
     <ChannelThree :toChannelThree="greateBook"></ChannelThree>
@@ -37,7 +37,7 @@ export default {
     ChannelThree
   },
   created () {
-    console.log(this.$route.params)
+    // console.log(this.$route.params)
     this.a = this.$route.params.a
     this.id = this.$route.params.id
     this.stamps = this.$route.params.stamps
@@ -46,13 +46,14 @@ export default {
     getCategoryList (i, s, b) {
       var p1 = getList(i, s, b)
       p1.then((response) => {
-        console.log(response.data)
-        console.log(response.data.data.module)
-        console.log(response.data.data.module[11])
+        // console.log(response.data)
+        // console.log(response.data.data.module)
+        // console.log(response.data.data.module[11])
         this.recommend = response.data.data.module[1]
+        this.hotList = response.data.data.module[6].content.data
         this.newBook = response.data.data.module[11]
         this.greateBook = response.data.data.module[16]
-        console.log(this.greateBook)
+        // console.log(this.greateBook)
       })
     }
   },

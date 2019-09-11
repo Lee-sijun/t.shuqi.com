@@ -6,108 +6,17 @@
         </div>
 
   <div id="category">
-    <div class="category-content">
-     <div id="chapter">
-          <h1>现言精选</h1>
+    <div class="category-content" ref="scroll_content">
+     <div id="chapter" v-for="(ele, index) in toChannelTwo" :key="index">
+          <h1>{{ele.m_s_name}}</h1>
           <ul class="book">
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-               <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
+            <li v-for="(val, index) in ele.content.slice(0,4)" :key="index">
+                <img :src="val.book_cover" alt="poster" class="poster"/>
+                <p class="book-title">{{val.bookname}} </p>
+                <p class="author">{{val.author_name}} </p>
             </li>
           </ul>
       </div>
-     <div id="chapter">
-          <h1>古言精选</h1>
-          <ul class="book">
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-               <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-          </ul>
-      </div>
-     <div id="chapter">
-          <h1>穿越精选</h1>
-          <ul class="book">
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-               <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-          </ul>
-      </div>
-     <div id="chapter">
-          <h1>古言精选</h1>
-          <ul class="book">
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-               <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-            <li>
-                <img src="http://img-tailor.11222.cn/bcv/big/201907191334353273.jpg" alt="poster" class="poster"/>
-                <p class="book-title">半城繁华(共三册)</p>
-                <p class="author">尤四姐</p>
-            </li>
-          </ul>
-      </div>
-
   </div>
   </div>
   <ul class="book-indicator">
@@ -128,6 +37,7 @@ export default {
       channelData: []
     }
   },
+  props: ['toChannelTwo'],
   mounted () {
     // var rs = [];
     // if( type == 1){
@@ -135,6 +45,7 @@ export default {
     // }else if( type == 2 ){
     //   rs = 'data2';
     // }
+    console.log(this.$pros)
     this.$nextTick(() => { // DOM已经重绘了
       this.scroll = new BScroll('#category', {
         scrollX: true, // 横向滚动

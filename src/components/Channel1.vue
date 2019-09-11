@@ -29,7 +29,7 @@
             </div>
 
             <div class="bottoms">
-            <span class="modulear-text">换一换</span>
+            <span class="modulear-text" @click="change">换一换</span>
             <mt-spinner type="fading-circle" :size="20" style="display:inline-block"></mt-spinner>
             </div>
 
@@ -45,17 +45,12 @@ export default {
   data () {
     return {
       rsData: []
+
     }
   },
   mounted () {
     console.log(this.$props)
-
-    //   if(this.$props.toChannelOne==''){
-    //       rsData=toChannelOne;
-    //   }
-    //   else if(this.$props.toChannelOne==''){
-    //       rsData=toChannelOnes;
-    //   }
+    console.log(this.$props.toChannelOne)
   }
 
 }

@@ -2,7 +2,9 @@
     <div>
         <div class="Tops">
              <div class="arr">
+               <a href="javascript:history.back(-1)">
                  <img src="../assets/backIcon.png" alt="back"/>
+               </a>
              </div>
              <div class="ljj-c">{{titles}} {{titless}}</div>
              <div class="arr" @click="goBack">
