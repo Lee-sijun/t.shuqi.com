@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="header">
     <a href="#" class="return"></a>
     <div class="header-title">登录</div>
@@ -35,4 +36,38 @@ export default {
       background-size: cover;
     }
   }
+=======
+    <div>
+        <div class="box">
+
+            <div class="head">
+                <router-link to='/Details'>
+                    <img src="../assets/sq01.png" alt=""/>
+                </router-link>
+            </div>
+
+                <div class="head"> {{titless}}</div>
+
+             <div class="head">
+                <router-link to='/Details'>
+                    <img src="../assets/sq02.png" alt=""/>
+                </router-link>
+            </div>
+
+        </div>
+
+    </div>
+</template>
+
+<script>
+
+export default {
+  name: 'Header',
+  props: ['titless']
+}
+</script>
+
+<style  lang="scss" scoped>
+
+>>>>>>> d486cdf6edd5cdb9af279532b18da8c2e3ed7739
 </style>
