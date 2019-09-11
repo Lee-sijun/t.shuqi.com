@@ -5,9 +5,9 @@ import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
 
-import shudan from './views/shudan.vue'
-import eat from './views/eat.vue'
-import Detail from './views/Details.vue'
+import shudan from '../views/shudan.vue'
+import eat from '../views/eat.vue'
+import Detail from '../views/Details.vue'
 
 import Header from '../components/Header.vue'
 
