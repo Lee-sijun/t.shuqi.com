@@ -1,7 +1,7 @@
 <template>
 <div>
     <Header titles='女生专区'></Header>
-    <ChannelOne :toChannelOne="recommend"></ChannelOne>
+    <ChannelOne :toChannelOne="recommend" :title="a"></ChannelOne>
 
     <div class="bottoms">
             <span class="modulear-text" @click="changeHotList(id,stamps)">换一换</span>
@@ -9,7 +9,7 @@
     </div>
 
     <ChannelTwo :toChannelTwo="hotList"></ChannelTwo>
-    <ChannelOne :toChannelOne="newBook" style="margin-top:10px"></ChannelOne>
+    <ChannelOne :toChannelOne="newBook" style="margin-top:10px" :title="b"></ChannelOne>
     <div class="bottoms">
             <span class="modulear-text" @click="changeHotLi(id,stamps)">换一换</span>
             <mt-spinner type="fading-circle" :size="20" style="display:none"></mt-spinner>
@@ -35,7 +35,9 @@ export default {
       newBook: [],
       greateBook: [],
       id: '',
-      stamps: ''
+      stamps: '',
+      a: '',
+      b: ''
 
     }
   },
@@ -59,7 +61,10 @@ export default {
         this.hotList = response.data.data.module[6].content.data
         this.newBook = response.data.data.module[11]
         this.greateBook = response.data.data.module[16]
-        console.log('first' + response.data.data.module[1])
+        this.a = response.data.data.module[1].m_s_name
+        this.b = response.data.data.module[11].m_s_name
+        console.log('first' + response.data.data.module[1].content)
+        console.log(response.data.data)
       })
     },
     changeHotList (a, b) {

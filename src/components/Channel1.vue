@@ -2,11 +2,12 @@
     <div class="pox">
         <div class="common-tit">
             <span class="green"></span>
-            {{toChannelOne.m_s_name}}
+            <!-- {{toChannelOne.m_s_name}} -->
+            {{title}}
         </div>
         <div class="main-content">
             <ul class="book">
-                <li v-for="(ele,index) in toChannelOne.content.slice(0,4)" :key="index">
+                <li v-for="(ele,index) in (toChannelOne.content || '').slice(0,4)" :key="index">
                     <img :src="ele.book_cover" alt="poster" class="poster"/>
                     <p class="book-title">{{ele.bookname}}</p>
                     <p class="author">{{ele.author_name}} </p>
@@ -15,7 +16,7 @@
 
             <div class="book-list">
                 <ul>
-                    <li v-for="(ele,index) in toChannelOne.content.slice(0,4)" :key="index">
+                    <li v-for="(ele,index) in (toChannelOne.content || '').slice(0,4)" :key="index">
                     <div>
                         <div class="title-text">{{ele.bookname}} </div>
                         <div class="tags">
@@ -41,7 +42,7 @@
 
 export default {
   name: 'Channel1',
-  props: ['toChannelOne'],
+  props: ['toChannelOne', 'title'],
   data () {
     return {
       rsData: []

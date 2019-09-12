@@ -6,7 +6,7 @@
         </div>
 
         <ul class="main-content">
-        <li v-for="(ele ,index) in toChannelThree.content.slice(0,1)" :key="index">
+        <li v-for="(ele ,index) in (toChannelThree.content || '').slice(0,1)" :key="index">
             <div class="img-left">
                 <img :src="ele.book_cover" alt="poster" />
             </div>
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </li>
-        <li class="book-item" v-for="(ele ,index) in toChannelThree.content.slice(1)" :key="index+1">
+        <li class="book-item" v-for="(ele ,index) in (toChannelThree.content || '').slice(1)" :key="index+1">
             <i class="ranking">{{index+2}}</i>
             <h4>{{ele.bookname}}</h4>
             <p>

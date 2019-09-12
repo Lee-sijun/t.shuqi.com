@@ -16,12 +16,12 @@ export default new Router({
       component: Home
     },
     {
-      path: '/female/:id/:stamps/:a',
+      path: '/female/:id/:stamps',
       name: 'female',
       component: Female
     },
     {
-      path: '/male/:id/:stamps/:a',
+      path: '/male/:id/:stamps',
       name: 'male',
       component: Male
     }

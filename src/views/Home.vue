@@ -16,11 +16,11 @@ export default {
   },
   methods: {
     goCategory (pageId, timestamps) {
-      var newStamps = new Date().getTime()
+      // var newStamps = new Date().getTime()
       if (pageId === 2) {
-        this.$router.push({ path: '/male/' + pageId + '/' + timestamps + '/' + newStamps })
+        this.$router.push({ path: '/male/' + pageId + '/' + timestamps })
       } else if (pageId === 3) {
-        this.$router.push({ path: '/female/' + pageId + '/' + timestamps + '/' + newStamps })
+        this.$router.push({ path: '/female/' + pageId + '/' + timestamps })
       }
     }
 
